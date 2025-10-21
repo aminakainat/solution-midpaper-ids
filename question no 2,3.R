@@ -1,6 +1,6 @@
 
 
-# 🟦 Question no 2: Applying Vector and List Concepts on Employee Dataset
+# Question no 2: Applying Vector and List Concepts on Employee Dataset
 
 
 # (i) Salary Vector and Average Salary
@@ -56,7 +56,7 @@ plot(employees$Age, employees$Salary,
      pch = 19, col = "blue")
 abline(lm(Salary ~ Age, data = employees), col = "red", lwd = 2)
 
-# 🟩 Question no 3 : Visualization using Built-in Dataset (mtcars)
+# Question no 3 : Visualization using Built-in Dataset (mtcars)
 
 # Load dataset
 data(mtcars)
@@ -84,5 +84,6 @@ hist(mtcars$wt,
      ylab = "Frequency",
      col = "orange",
      border = "black")
+
 
 
